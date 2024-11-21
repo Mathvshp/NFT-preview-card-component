@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
-    <title>NFT Previel Card Component</title>
+    <title>NFT Preview Card Component</title>
 </head>
 <body>
-    <section>
-        <img class="img-banner" src="./images/image-equilibrium.jpg" alt="imagem de um prisma">
-
-        <a class="name-link" href="">Equilibrium #3429</a>
-        <p class="description" >Our Equilibrium collection promotes balance and calm.</p>
-
-        <div class="wrap">
-            <div class="container">
-                <img src="./images/icon-ethereum.svg" alt="">
-                <p>0.041 ETH</p>
+    <main>
+        <article class="nft-card">
+            <header>
+                <img class="img-banner" src="./images/image-equilibrium.jpg" alt="Imagem de um prisma">
+            </header>
+            <h1>
+                <a class="name-link" href="#">Equilibrium #3429</a>
+            </h1>
+            <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+            
+            <div class="details">
+                <div class="price">
+                    <img src="./images/icon-ethereum.svg" alt="Ícone Ethereum">
+                    <p>0.041 ETH</p>
+                </div>
+                <div class="time">
+                    <img src="./images/icon-clock.svg" alt="Ícone de relógio">
+                    <p>3 days left</p>
+                </div>
             </div>
-
-            <div class="container">
-                <img src="./images/icon-clock.svg" alt="">
-                <p>3 days left</p>
-            </div>
-        </div>
-
-        <div class="wrap profile">
-            <img class="profile-picture" src="./images/avatar.png" alt="">
-            <p>Creation of <a href="">Jules Wyvern</a></p>
-        </div>
-    </section>
+            
+            <footer class="profile">
+                <img class="profile-picture" src="./images/avatar.png" alt="Avatar do criador">
+                <p>Creation of <a href="#">Jules Wyvern</a></p>
+            </footer>
+        </article>
+    </main>
 </body>
 </html>
